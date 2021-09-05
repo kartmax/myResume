@@ -1,0 +1,21 @@
+@use "sass:math";
+
+//Mixin to calculate REM
+@function calculateRem($size) {
+  // $remSize: $size / 16px;
+  $remSize: math.div($size, 16px);
+  @return #{$remSize}rem;
+}
+
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+
+//Mixin to sprite png url
+//@include sprite($icon-search); - так вставлять картинку с спрайта
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(../img/#{$sprite-image});
+}

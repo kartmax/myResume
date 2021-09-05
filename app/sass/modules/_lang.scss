@@ -1,0 +1,39 @@
+.lang {
+    display: inline-block;
+    color: $text-color-light;
+    font-size: 14px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+    &::before {
+        content: '';
+        width: 1px;
+        height: 14px;
+        background-color: $accent-color;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    @media only screen and (min-width: 560px) {
+        color: $dark-gray;
+    }
+}
+
+.lang__item {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+    transition: color $transition-time;
+}
+
+.lang__item.active {
+    color: $accent-color;
+    cursor: default;
+}
+

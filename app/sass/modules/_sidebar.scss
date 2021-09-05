@@ -1,0 +1,170 @@
+.sidebar {
+    background-color: $dark-gray;
+    padding: 50px 20px;
+    color: $light-gray;
+}
+
+
+// ==============================================
+// =============== sidebar header ===============
+// ==============================================
+.sidebar__head {
+    text-align: center;
+}
+
+.dev {
+    line-height: 1.2;
+}
+
+.dev__photo {
+    position: relative;
+    width: 156px;
+    height: 156px;
+    margin: 0 auto;
+    padding: 3px;
+
+    &::before {
+        @extend .absolute-center;
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 1px solid $light-gray;
+    }
+}
+
+.dev__photo_img {
+    position: relative;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+
+     img {
+        @extend .absolute-center;
+    }
+}
+
+.dev__fullname {
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.dev__prof {
+    font-weight: 800;
+    color: $text-color-light;
+}
+
+
+// ==============================================
+// =============== sidebar main item ============
+// ==============================================
+.sidebar__main_item {
+    padding-top: 30px;
+
+    @media only screen and (min-width: 769px) {
+        padding-top: 45px;
+    }
+}
+.sidebar__main_title {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $text-color-light;
+    padding-bottom: 8px;
+}
+
+.sidebar__main_linedecor {
+    display: block;
+    height: 0.5px;
+    background-color: $line-decor-aside-color;
+    margin-bottom: 8px;
+}
+
+.sidebar__main_ul {
+    a {
+        color: $light-gray;
+        font-size: 14px;
+    }
+}
+
+.sidebar__main_li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar__li_row {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__li_link {
+    transition: color $transition-time;
+
+    &:hover {
+        color: $text-color-light;
+    }
+}
+
+.decor-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: $accent-color;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    color: $text-color-light;
+    text-transform: uppercase;
+
+    svg {
+        width: 18px;
+        height: 18px;
+        fill: $text-color-light;
+    }
+}
+
+.decor-progress {
+    position: relative;
+    display: block;
+    width: 145px;
+    height: 10px;
+}
+
+.decor-progress__total,
+.decor-progress__value {
+    display: flex;
+
+    span {
+        display: block;
+        width: 10px;
+        min-width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+}
+
+.decor-progress__total {
+    span {
+        background-color: $light-gray;
+    }
+}
+
+.decor-progress__value {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+
+    span {
+        background-color: $accent-color;
+    }
+}
+

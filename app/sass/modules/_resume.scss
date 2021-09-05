@@ -1,0 +1,23 @@
+.resume {
+    display: flex;
+    flex-flow: wrap;
+    min-height: 100vh;
+    background-color: #fff;
+    position: relative;
+}
+
+.sidebar {
+    flex: 1 0 100%;
+
+    @media only screen and (min-width: 560px) {
+        flex: 0 0 244px;
+    }
+}
+
+.content {
+    flex: 1 0 100%;
+
+    @media only screen and (min-width: 560px) {
+        flex: 1 1 0;
+    }
+}

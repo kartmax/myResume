@@ -1,0 +1,27 @@
+.scrolltop {
+  position: fixed;
+  right: 15px;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba($color: $accent-color, $alpha: .5);
+  cursor: pointer;
+  transition: background-color $transition-time;
+
+  &:hover {
+    background-color: rgba($color: $accent-color, $alpha: 1);
+  }
+
+  svg {
+    width: 17px;
+    height: 17px;
+    transform: rotate(180deg);
+    fill: $text-color-light;
+  }
+}

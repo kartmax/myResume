@@ -1,0 +1,93 @@
+// @import "bourbon";
+// @import "vars";
+
+
+html {
+	font-size: 16px;
+
+	// @media only screen and (min-width : 769px){
+	// 	font-size: 16px;
+	// }
+}
+
+body {
+	position: relative;
+	min-width: $min-width;
+	font-family: $default-font;
+	color: $text-color;
+	line-height: 1.7;
+	overflow-x: hidden;
+
+	max-width: 992px;
+	margin: 0 auto;
+	background-color: rgba($color: $light-gray, $alpha: .5);
+
+	// Fix text zoom on Mobile Devices
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.number-text {
+	font-family: $number-text-font;
+}
+
+.max-width {
+	max-width: $max-width;
+	width: 100%;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	@media only screen and (min-width : 768px){
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+.absolute-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-weight: 800;
+	color: $dark-gray;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	padding: 7px 0;
+}
+
+.clearfix {
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+}
+
+address, blockquote, center, section, aside, main, header, footer, div, fieldset, form, input, textarea,
+h1, h2, h3, h4, h5, h6, hr, menu, ol, ul, li, p, span, a, pre, table {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: $text-color;
+	transition: color $transition-time;
+
+	&:hover {
+		color: $accent-color;
+	}
+}
+
