@@ -65,6 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
             my_works_4 : 'Лендинг для пивоварни.',
             my_works_5 : 'Главная страница сайта с расширенным фильтром для записи к мастеру.',
             my_works_6 : 'Шапка сайта в виде анимированного слайдера.',
+            my_works_7 : 'Одностраничный сайт в виде 3D-скролла.',
+            my_works_8 : 'Галерея с 3D эффектом.',
+            my_works_9 : 'Галерея на меняющемся blur-фоне.',
         },
 
         en : {
@@ -88,6 +91,9 @@ document.addEventListener('DOMContentLoaded', () => {
             my_works_4 : 'Landing page for a brewery.',
             my_works_5 : 'The main page of the site with an advanced filter for writing to the master.',
             my_works_6 : 'Header of the site in the form of an animated slider.',
+            my_works_7 : 'One-page site in the form of a 3D scroll.',
+            my_works_8 : 'Gallery with 3D effect.',
+            my_works_9 : 'Gallery on a changing blur background.',
         }
     }
     
