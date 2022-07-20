@@ -89,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
          experience_2: 'Верстка лендингов, корпоративных сайтов, немного насадка на WordPress.',
          experience_3: 'Верстка сайтов-блогов, корпоративных сайтов.',
          experience_5: 'Front-end, настройка LAMP, управление доменами, написание скриптов на python (автоматизация процессов обработки датасетов с изображениями, парсер), обучение нейронной сети, дизайн мобильных приложений и веб-сайтов, релиз мобильных приложений в AppStore и PlayMarket...',
+         experience_6: 'Верстка лендингов, поддержка сайта на WordPress (Frontend часть).',
 
          my_works_1: 'Многостраничный сайт для обзора криптовалютных бирж.',
          my_works_2: 'Многостраничный сайт-блог.',
@@ -99,6 +100,8 @@ document.addEventListener('DOMContentLoaded', () => {
          my_works_7: 'Одностраничный сайт в виде 3D-скролла.',
          my_works_8: 'Галерея с 3D эффектом.',
          my_works_9: 'Галерея на меняющемся blur-фоне.',
+         my_works_10: 'Сайт по сбору инвестиций для волонтерской организации.',
+         my_works_11: 'Галерея с эффектом maysonry.',
       },
 
       en: {
@@ -115,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
          experience_2: 'Layout of landing pages, corporate sites, a little bit of WordPress add-on.',
          experience_3: 'Layout of blog sites, corporate sites.',
          experience_5: 'Front-end, setting up LAMP, managing domains, writing scripts in python (automating processes for processing datasets with images, parser), training a neural network, designing mobile applications and websites, releasing mobile applications in AppStore and PlayMarket ...',
+         experience_6: 'Layout of landing pages, site support on WordPress (Frontend part).',
 
          my_works_1: 'Multi-page site for an overview of cryptocurrency exchanges.',
          my_works_2: 'Multi-page blog site.',
@@ -125,6 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
          my_works_7: 'One-page site in the form of a 3D scroll.',
          my_works_8: 'Gallery with 3D effect.',
          my_works_9: 'Gallery on a changing blur background.',
+         my_works_10: 'Website for fundraising for a volunteer organization.',
+         my_works_11: 'Gallery with maysonry effect.',
       }
    }
 
