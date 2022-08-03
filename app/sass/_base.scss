@@ -52,6 +52,12 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.about-list {
+   list-style: disc;
+   padding-left: 20px;
+   padding-top: 0;
+}
+
 img {
 	width: 100%;
 	height: auto;
@@ -63,8 +69,8 @@ h2 {
 	text-transform: uppercase;
 }
 
-p {
-	font-size: 14px;
+p, ul {
+   @include fontSize(14px);
 	padding: 7px 0;
 }
 

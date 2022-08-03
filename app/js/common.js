@@ -76,8 +76,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
    const contentSearch = {
       ru: {
-         about_me_1: 'В 2017 году начал изучать html, css и  jquery для трудоустройства на позицию html-верстальщик. За время работы сверстал около 30 проектов (лендинги, корпоративные сайты, блоги).',
-         about_me_2: 'В последних двух проектах был на позиции front-end разработчика, где помимо верстки занимался построением логики работы веб-приложений (связка клиент-сервер).',
+         about_me_1: 'С 2017 года занимаюсь front-end разработкой.<br>Ответственно подхожу к работе и считаю, что детали очень важны.',
+         about_me_2: 'Делаю качественную семантическую, кроссбраузерную, адаптивную HTML-верстку сайтов.',
+         about_me_3: 'Принимал участие в стартапе по созданию таких проектов как:',
+         about_me_3_1: 'распознавание лиц на фото и их анализ;',
+         about_me_3_2: 'распознавание кожных заболеваний по фото.',
+         about_me_4: 'В этих проектах моими функциями были:',
+         about_me_4_1: 'Front-end разработка (верстка, настройка связи с сервером по API с использованием AJAX и JSON);',
+         about_me_4_2: 'UI/UX интерфейсов мобильных приложений и функциональные веб-интерфейсы в Sketch и Figma;',
+         about_me_4_3: 'обработка наборов данных с изображениями с помощью python;',
+         about_me_4_4: 'сортировка и группировка наборов данных для разных разделов нейросети с помощью python;',
+         about_me_4_5: 'обучение нейронной сети;',
+         about_me_4_6: 'помощь отделу сбора данных (разработка парсера для сбора данных на python, настройка GitLab на VPS для хранения и совместной работы с данными);',
+         about_me_4_7: 'настроить LAMP на VPS;',
+         about_me_4_8: 'тестирование мобильных приложений;',
+         about_me_4_9: 'поиск сотрудников как на полную ставку, так и на фриланс;',
+         about_me_4_10: 'релиз мобильных приложений в AppStore и PlayMarket.',
 
          study_1: 'Курсы по html и css',
          study_2: 'Учебник по JavaScript',
@@ -105,8 +119,23 @@ document.addEventListener('DOMContentLoaded', () => {
       },
 
       en: {
-         about_me_1: 'In 2017, I started studying html, css and jquery for employment as an html layout designer. During my work, I have made up about 30 projects (landing pages, corporate sites, blogs).',
-         about_me_2: 'In the last two projects, I was a front-end developer, where, in addition to layout, I was engaged in building the logic of web applications (client-server link).',
+         about_me_1: 'I have been doing front-end development since 2017.<br>I approach my work responsibly and I think that the details are very important.',
+         about_me_2: 'I know how to make high-quality semantic, cross-browser, adaptive HTML-layout of sites.',
+         about_me_3: 'I took part in a startup to develop such projects as:',
+         about_me_3_1: 'face recognition in the photo and their analysis;',
+         about_me_3_2: 'recognition of skin diseases in the photo.',
+         about_me_4: 'In these projects, my functions were:',
+         about_me_4_1: 'Front-end development (layout, setting up communication with the server via API using ajax and JSON);',
+         about_me_4_2: 'UI/UX interfaces of mobile applications and functional web interfaces in Sketch and Figma;',
+         about_me_4_3: 'processing datasets with images using python;',
+         about_me_4_4: 'sorting and grouping data-sets for different sections of the neural network using python;',
+         about_me_4_5: 'neural network training;',
+         about_me_4_6: 'assistance to the data collection department (development of a parser for data collection in python, setting up GitLab on VPS for storage and teamwork with data);',
+         about_me_4_7: 'setup LAMP on VPS;',
+         about_me_4_8: 'testing of mobile applications;',
+         about_me_4_9: 'search for employees both full-time and freelance;',
+         about_me_4_10: 'release of mobile applications in AppStore and PlayMarket.',
+
 
          study_1: 'Html and css courses',
          study_2: 'JavaScript tutorial',
@@ -183,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const contentSearchItems = document.querySelectorAll('.js-lang-change-search')
       for (item of contentSearchItems) {
          let valDataLangItem = item.getAttribute('data-content-search')
-         item.innerText = contentSearch[interfaceLang][valDataLangItem]
+         item.innerHTML = contentSearch[interfaceLang][valDataLangItem]
       }
    }
 
