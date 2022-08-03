@@ -121,18 +121,16 @@ p.content-list__title {
         position: relative;
         border-radius: $bord_radius;
         background-color: rgba($color: $dark-gray, $alpha: .05);
+        border: 1px solid rgba($color: $dark-gray, $alpha: .05);
         height: 100%;
         display: flex;
         flex-direction: column;
+        transition: border-color $transition-time;
 
         &:hover {
+         border-color: rgba($color: $dark-gray, $alpha: 1);
             .content-list-ol__head {
                 background-color: $dark-gray;
-            }
-
-            .content-list-ol__bottom {
-                background-color: rgba($color: $dark-gray, $alpha: 1.0);
-                color: $text-color-light;
             }
         }
     } 
@@ -297,6 +295,7 @@ p.content-list-ol__head_date {
 
 .work {
     background-color: rgba($color: $dark-gray, $alpha: .05);
+    border: 1px solid rgba($color: $dark-gray, $alpha: .05);
     border-radius: $bord_radius;
     padding: 12px;
     font-size: 14px;
@@ -305,19 +304,10 @@ p.content-list-ol__head_date {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    transition: color $transition-time, background-color $transition-time;
+    transition: color $transition-time, background-color $transition-time, border-color $transition-time;
 
-    &:hover {
-        background-color: $dark-gray;
-        color: $text-color-light;
-
-        .work__link {
-            color: $text-color-light;
-
-            &::before {
-                background-color: $text-color-light;
-            }
-        }
+    &:hover {  
+      border-color: rgba($color: $dark-gray, $alpha: 1.0);
     }
 
 }
@@ -343,13 +333,14 @@ p.content-list-ol__head_date {
         background-color: $dark-gray;
         position: absolute;
         left: 0;
-        bottom: 0;
-        transition: background-color $transition-time;
+        bottom: -1px;
+        transition: background-color $transition-time, bottom .1s;
     }
 
     &:hover {
         &::before {
             background-color: $accent-color;
+            bottom: -2px;
         }
     }
 }
