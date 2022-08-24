@@ -212,28 +212,28 @@ p.content-list-ol__head_date {
 // ================== skils =====================
 // ==============================================
 
-@media only screen and (max-width : 767px){
-    .order-html {order: 1}
-    .order-css {order: 3}
-    .order-js {order: 5}
-    .order-figma {order: 7}
-    .order-scetch {order: 9}
-    .order-photoshop {order: 2}
-    .order-linux {order: 4}
-    .order-mysql {order: 6}
-    .order-python {order: 8}
-}
-@media only screen and (max-width : 629px){
-    .order-html {order: 1}
-    .order-css {order: 2}
-    .order-js {order: 3}
-    .order-figma {order: 4}
-    .order-scetch {order: 5}
-    .order-photoshop {order: 6}
-    .order-linux {order: 7}
-    .order-mysql {order: 8}
-    .order-python {order: 9}
-}
+// @media only screen and (max-width : 767px){
+//     .order-html {order: 1}
+//     .order-css {order: 3}
+//     .order-js {order: 5}
+//     .order-figma {order: 7}
+//     .order-scetch {order: 9}
+//     .order-photoshop {order: 2}
+//     .order-linux {order: 4}
+//     .order-mysql {order: 6}
+//     .order-python {order: 8}
+// }
+// @media only screen and (max-width : 629px){
+//     .order-html {order: 1}
+//     .order-css {order: 2}
+//     .order-js {order: 3}
+//     .order-figma {order: 4}
+//     .order-scetch {order: 5}
+//     .order-photoshop {order: 6}
+//     .order-linux {order: 7}
+//     .order-mysql {order: 8}
+//     .order-python {order: 9}
+// }
 
 .skill {
     display: flex;
