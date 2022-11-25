@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
          about_me_3_1: 'распознавание лиц на фото и их анализ;',
          about_me_3_2: 'распознавание кожных заболеваний по фото.',
          about_me_4: 'В этих проектах моими функциями были:',
-         about_me_4_1: 'Front-end разработка (верстка, настройка связи с сервером по API с использованием AJAX и JSON);',
+         about_me_4_1: 'Front-end разработка (верстка, программирование логики веб-интерфейса, интеграция с api сервера приложения, интеграция с платежной системой);',
          about_me_4_2: 'UI/UX интерфейсов мобильных приложений и функциональные веб-интерфейсы в Sketch и Figma;',
          about_me_4_3: 'обработка наборов данных с изображениями с помощью python;',
          about_me_4_4: 'сортировка и группировка наборов данных для разных разделов нейросети с помощью python;',
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
          about_me_4_6: 'помощь отделу сбора данных (разработка парсера для сбора данных на python, настройка GitLab на VPS для хранения и совместной работы с данными);',
          about_me_4_7: 'настроить LAMP на VPS;',
          about_me_4_8: 'тестирование мобильных приложений;',
-         about_me_4_9: 'поиск сотрудников как на полную ставку, так и на фриланс;',
+         about_me_4_9: 'поиск сотрудников;',
          about_me_4_10: 'релиз мобильных приложений в AppStore и PlayMarket.',
 
          study_1: 'Курсы по html и css',
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
          about_me_3_1: 'face recognition in the photo and their analysis;',
          about_me_3_2: 'recognition of skin diseases in the photo.',
          about_me_4: 'In these projects, my functions were:',
-         about_me_4_1: 'Front-end development (layout, setting up communication with the server via API using ajax and JSON);',
+         about_me_4_1: 'Front-end development (layout, web interface logic programming, integration with the application server api, integration with the payment system);',
          about_me_4_2: 'UI/UX interfaces of mobile applications and functional web interfaces in Sketch and Figma;',
          about_me_4_3: 'processing datasets with images using python;',
          about_me_4_4: 'sorting and grouping data-sets for different sections of the neural network using python;',
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
          about_me_4_6: 'assistance to the data collection department (development of a parser for data collection in python, setting up GitLab on VPS for storage and teamwork with data);',
          about_me_4_7: 'setup LAMP on VPS;',
          about_me_4_8: 'testing of mobile applications;',
-         about_me_4_9: 'search for employees both full-time and freelance;',
+         about_me_4_9: 'search for employees;',
          about_me_4_10: 'release of mobile applications in AppStore and PlayMarket.',
 
 
