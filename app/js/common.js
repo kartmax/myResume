@@ -116,6 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
          my_works_9: 'Галерея на меняющемся blur-фоне.',
          my_works_10: 'Сайт по сбору инвестиций для волонтерской организации.',
          my_works_11: 'Галерея с эффектом maysonry.',
+         my_works_12: 'Многостраничный сайт для студии дизайна интерьеров.',
       },
 
       en: {
@@ -160,6 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
          my_works_9: 'Gallery on a changing blur background.',
          my_works_10: 'Website for fundraising for a volunteer organization.',
          my_works_11: 'Gallery with maysonry effect.',
+         my_works_12: 'Multipage website for an interior design studio.',
       }
    }
 
