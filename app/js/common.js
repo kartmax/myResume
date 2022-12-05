@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', () => {
          about_me_9_2: 'Python3 - working with an image database when training a neural network, working with a MySQL database when generating datasets for training different directions of a neural network;',
          about_me_9_3: 'SQL and MySQL - selections from the database for the formation of datasets for training different directions of the neural network;',
          about_me_9_4: 'Django and Django Rest Framework - writing a rest-api for a web application on a culinary theme;',
-         about_me_9_5: 'Domain and DNS - buying domain names on the GoDaddy service, managing the DNS of purchased domains',
+         about_me_9_5: 'Domain and DNS - buying domain names on the GoDaddy service, managing the DNS of purchased domains;',
          about_me_9_6: 'Slack and Bitbucket - setting up the integration of the Slack messenger with a remote Bitbucket repository for the convenience of tracking the development process when working on a team project;',
          about_me_9_7: 'Quip and Trello - functionality documentation and task distribution;',
          about_me_9_8: 'XCode and AndroidStudio - release of mobile applications in AppStore and PlayMarket.',
