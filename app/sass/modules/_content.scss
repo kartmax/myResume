@@ -260,9 +260,8 @@ p.content-list-ol__head_date {
    }
 
    &__icon {
-      --size: 40px;
-      width: var(--size);
-      height: var(--size);
+      width: auto;
+      height: 40px;
       transition: transform $transition-time;
    }
 
