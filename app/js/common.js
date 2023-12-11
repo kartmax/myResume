@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
    const contentSearch = {
       ru: {
-         about_me_1: 'Привет, я фронтенд разработчик с опытом работы с 2017 года.<br>Моя специализация включает разработку с использованием React.js и HTML верстки.<br>Я стараюсь создавать эффективные и интуитивно понятные пользовательские интерфейсы для веб-приложений.',
+         about_me_1: 'Привет, я фронтенд разработчик.<br>Моя специализация включает разработку с использованием React.js и HTML верстки.<br>Я стараюсь создавать эффективные и интуитивно понятные пользовательские интерфейсы для веб-приложений.',
          about_me_2: 'Мой опыт работы позволяет мне разрабатывать масштабируемые решения, которые отлично интегрируются с бэкендом. Активно использую React.js, чтобы создавать переиспользуемые компоненты, улучшать производительность и обеспечивать удобную навигацию по веб-сайту.',
          about_me_3: 'Благодаря моим знаниям HTML верстки, я могу создавать структурированные и семантически правильные веб-страницы. Уделяю внимание деталям, чтобы создать визуально привлекательные и отзывчивые интерфейсы, которые хорошо работают на разных устройствах.',
          about_me_4: 'Стремлюсь к постоянному совершенствованию и следую последним трендам и лучшим практикам в своей области. Готов к сотрудничеству и интересным проектам, которые потребуют смелых и инновационных подходов.',
@@ -108,7 +108,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
 
       en: {
-         about_me_1: 'Hi, I am a front-end developer with experience since 2017.<br>My specialization includes development using React.js and HTML layout.<br>I strive to create efficient and intuitive user interfaces for web applications.',
+         about_me_1: 'Hi, I am a front-end developer.<br>My specialization includes development using React.js and HTML layout.<br>I strive to create efficient and intuitive user interfaces for web applications.',
          about_me_2: 'My work experience allows me to develop scalable solutions that integrate well with the backend. I use React.js extensively to create reusable components, improve performance, and provide easy website navigation.',
          about_me_3: 'Thanks to my knowledge of HTML layout, I can create structured and semantically correct web pages. I pay attention to detail to create visually appealing and responsive interfaces that work well across devices.',
          about_me_4: 'I strive for continuous improvement and follow the latest trends and best practices in my field. I am ready for cooperation and interesting projects that will require bold and innovative approaches.',
