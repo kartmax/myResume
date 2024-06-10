@@ -105,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
          my_works_14: 'Платформа для аренды автомобилей в Литве.',
          my_works_15: 'Платформа для компаний в сфере логистики.',
          my_works_16: 'Корпоративный сайт компании, занимающейся разработкой ботов.',
+         my_works_17: 'Корпоративный сайт ИТ-компании.',
       },
 
       en: {
@@ -137,6 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
          my_works_14: 'A Platform for car rental in Lithuania.',
          my_works_15: 'A platform for companies in the logistics sector.',
          my_works_16: 'Corporate website of a company developing bots.',
+         my_works_17: 'Corporate website of an IT company.',
       }
    }
 
