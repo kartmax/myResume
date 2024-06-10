@@ -88,8 +88,8 @@ function func_sass () {
 }
  
 function func_imagemin () {
-	return src(['app/img/**/*+(.png|jpg|jpeg|ico|gif)', 'app/img/**/*.svg', '!app/img/for-sprite-svg/*', '!app/img/for-sprite-png/*'])
-	.pipe(newer('app/img/**/*+(.png|jpg|jpeg|ico|gif)', 'app/img/**/*.svg', '!app/img/for-sprite-svg/*', '!app/img/for-sprite-png/*'))
+	return src(['app/img/**/*+(.png|jpg|jpeg|webp|ico|gif)', 'app/img/**/*.svg', '!app/img/for-sprite-svg/*', '!app/img/for-sprite-png/*'])
+	.pipe(newer('app/img/**/*+(.png|jpg|jpeg|webp|ico|gif)', 'app/img/**/*.svg', '!app/img/for-sprite-svg/*', '!app/img/for-sprite-png/*'))
 	.pipe(cache(imagemin()))
 	.pipe(dest('dist/img'))
 }
